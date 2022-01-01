@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>library system</title>
+   
+    <link rel="icon" href="images/bookicon.png">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <main  >
+        <div class="layout  ">
+            <div class="container" >
+                <h1> welcome in your library system </h1>
+                <figcaption>
+                    <p> How many books you want to add to your system ? </p>   
+                    <div class ="box">
+                        <input type="number" placeholder="Enter Numper" max="10" min="0" > 
+                        <article></article>
+                        <button> confirm </button>
+                    </div>
+                </figcaption>
+                <p>made by <a target="_blank" href="https://www.linkedin.com/in/randa-mohamed1295/"> Randa Mohamed</a> </p>
+    
+            </div>
+       </div>  <!--/layout-->
+    </main>    
+    <section class="continer">
+        <figure id="slider" >
+          
+        </figure>
+       
+            <form>
+                <h3></h3>
+                <p> Book Name </p>
+                <input name="bookName" type="text">
+                <article></article>
+
+                <p> Price </p>
+                <input name="bookName" type="text">
+                <article></article>
+
+               <p> Auther Name </p>
+                <input name="bookName" type="text">
+                <article></article>
+
+
+                <p> Auther E-mail </p>
+                <input name="bookName" type="text">
+                <article></article>
+                <div class="btn">
+                    <input type="button" value="Add"> 
+                    <input type="button" value="show">
+                </div>
+                
+            </form>
+    </section>
+    <footer class="container"  >
+        <div class="item" >
+            <ul>
+                <li> Book Name  </li>
+                <li onclick="edit()" > Book price </li>
+                <li> Auther name  </li>
+                <li> Auther Email </li>
+                <li> Edit </li>
+                <li> delete  </li>
+            </ul>
+        </div> <!-- /item -->
+        
+       <button > add new books </button>
+    </footer>
+
+    <script src="control.js"></script>
+</body>
+</html>
