@@ -416,7 +416,7 @@ function total (){
     else  if (score > 0 && score < 7 ){
         
     
-        document.querySelectorAll('.result h3')[0].textContent=" منخفض جدا";
+        document.querySelectorAll('.result h3')[0].textContent=" منخفض ";
       
         document.querySelectorAll('.result p')[1].textContent   =` 
         انت شخص عاجز عن تحمل القلق نشاطك زائد و إندفاعي  تنافسي وكثير الكلام , انبساطي وسطحي في علاقتك الاجتماعية  تواجه مشكلات في عدم السيطرة علي مشاعرك 
@@ -427,7 +427,7 @@ function total (){
     
     else if (score >= 7 && score < 16 ){
      
-        document.querySelectorAll('.result h3')[0].textContent="عادي";
+        document.querySelectorAll('.result h3')[0].textContent="اقل من المتوسط";
         document.querySelectorAll('.result p')[1].innerHTML =" انت شخص يقذ إجتماعيا ونشيط لديك فاعلية في عمل المهام المختلفة تذكر دائما ان تفرغ طاقتك في اشياء مفيدة وتستغلها بشكل ايجابي"
 
     }
